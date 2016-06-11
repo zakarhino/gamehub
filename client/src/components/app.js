@@ -11,12 +11,8 @@ export default class App extends Component {
         <h2>slogan...</h2>
         <FbLogin />
         Test, 1,2
-      {this.props.children}
+        {this.props.children}
       </div>
-
-      
-      
-      
     );
   }
 }
