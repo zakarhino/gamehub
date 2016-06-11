@@ -14,6 +14,8 @@ export const createStoreMiddleware = createStore(
   {lol: "ok"},
   applyMiddleware(promise));
 
+// applyMiddleware (promise)(createStore);
+
 export default (
   <Route path='/' component={App} >
     <Route path='profile_setup' component={ProfileForm}/>
